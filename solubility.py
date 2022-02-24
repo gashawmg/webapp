@@ -35,9 +35,9 @@ st.markdown("""[Gashaw M.Goshu](https://www.linkedin.com/in/gashaw-m-goshu/), Ph
 # Define solubility and explain why it is important
 st.markdown("""`Solubility` is defined as the maximum amount of solute that will dissolve in a given amount of solvent to form a saturated solution at a specified temperature, usually at room temperature. Aqueous solubility is one of the important properties in drug discovery. As a result, solubility of compounds needs to be estimated before synthesizing them. This Web App was developed by training 6,960 data points (70% of 9,943) using 40 algorithms. Best results were obtained by two models (Light GBM Regressor(LGBMR) and Histogram-based Gradient Boosting Regressor(HGBR)). See the 10-fold cross-validation results shown below.""")
 
-figure1 = Image.open('figure1.jpg')
+figure1 = Image.open('figure1.JPG')
 st.image(figure1, caption='Figure 1. 10-fold cross-validation using Light GBM Regressor on training set')
-figure2 = Image.open('Figure2.jpg')
+figure2 = Image.open('Figure2.JPG')
 
 st.image(figure2, caption='Figure 2. 10-fold cross-validation using HistGradient Boosting Regressor on training set')
  
@@ -166,12 +166,12 @@ else:
 
     st.markdown('<p style="color:#5a03fc;background-color:powderblue;border-radius:10px;text-align:center"> If you press enter, you will get the following output or you can download your output using the download link. Note that this App does not store or save your data to the server and the download link will be removed if you refresh the app.</p>',unsafe_allow_html=True)
 
-    inputbox2 = Image.open('input_box_output.jpg')
+    inputbox2 = Image.open('input_box_output.JPG')
     st.image(inputbox2, caption='Output file should look like this',width=300)
 
     st.markdown('<p style="color:#5a03fc;background-color:powderblue;border-radius:10px;text-align:center"> If you have many molecules, you can put their SMILES strings in a "SMILES" column, upload them and click the button which says "Predict logS of moleclues" </p>',unsafe_allow_html=True)
 
-    smiles = Image.open('SMILES_column.jpg')
+    smiles = Image.open('SMILES_column.JPG')
     st.image(smiles, caption='1) Put SMILES in CSV file',width=300)
 
     upload_smiles = Image.open('browse_files.JPG')
