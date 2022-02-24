@@ -6,4 +6,3 @@ rdkit-pypi==2021.9.4
 scikit_learn==1.0.2
 seaborn==0.11.2
 streamlit==1.5.1
-lightgbm==2.3.1
