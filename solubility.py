@@ -64,8 +64,8 @@ plt.legend(handles=[R2, rmse])
 st.pyplot(plt)
 
 # ============ User input
-data = st.sidebar.text_input('Enter SMILE Strings in single or double quotation separated by comma:',"['CCCCO']")
-st.sidebar.markdown('''`or upload SMILE strings in CSV format, note that SMILE strings of the molecules should be in 'SMILES' column:`''')
+data = st.sidebar.text_input('Enter SMILES in single or double quotation separated by comma:',"['CCCCO']")
+st.sidebar.markdown('''`or upload SMILES strings in CSV format, note that SMILES strings of the molecules should be in 'SMILES' column:`''')
 multi_data = st.sidebar.file_uploader("=====================================")
 X_train = pd.read_csv("X_train.csv")
 
