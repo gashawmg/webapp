@@ -27,7 +27,7 @@ with open('model_gbr.pkl','rb') as f:
 #----------------------------------------------------------------------
 st.set_page_config(page_title='Solubility Prediction App',layout='wide')
 st.sidebar.markdown('<h2 style="color:#5a03fc;background-color:powderblue;border-radius:10px;text-align:center"> Use this Sidebar for Solubility Prediction </h2>',unsafe_allow_html=True)
-st.markdown('<h3 style="color:#5a03fc;background-color:powderblue;border-radius:10px;text-align:center"> About Aqueous Solubility Prediction App</h3>',unsafe_allow_html=True)
+st.markdown('<h3 style="color:#5a03fc;background-color:powderblue;border-radius:10px;text-align:center"> Introduction to Solubility Prediction App</h3>',unsafe_allow_html=True)
 # Display my linkedin page on the sidebar and main page
 st.sidebar.markdown("""[Gashaw M.Goshu](https://www.linkedin.com/in/gashaw-m-goshu/), Ph.D in Organic Chemistry""")
 st.markdown("""[Gashaw M.Goshu](https://www.linkedin.com/in/gashaw-m-goshu/), Ph.D in Organic Chemistry""")
